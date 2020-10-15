@@ -34,9 +34,7 @@ a{
 	text-decoration: none;
 	color: white;
 }
-h1, p{
-	color: #fff;
-}
+
 .container{
 	max-width: 1300px;
 	margin: auto;
@@ -81,7 +79,9 @@ h1, p{
 	background-repeat:  no-repeat;
 	background-size: cover;
 }
-
+h1, p{
+	color: white;
+}
 
 
 
@@ -97,8 +97,9 @@ h1, p{
 	margin-bottom: 30px;
 }
 
-.col-3 img{
+ .main img{
 	width: 100%;
+	height: 404px;
 }
 
 .small-container{
@@ -143,6 +144,11 @@ h4{
 	font-weight: normal;
 }
 
+
+.col-3 img{
+	width: 100%;
+}
+
 .col-4 p{
 	color: grey;
 	font-size: 14px;
@@ -170,7 +176,7 @@ h4{
 small{
 	color: #555;
 }
-.col-2 h1,p{
+.offer h1,p{
 	color: grey;
 }
 
@@ -288,3 +294,4 @@ ul{
 .copyright{
 	text-align: center;
 }
+
